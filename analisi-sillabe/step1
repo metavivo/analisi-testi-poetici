@@ -1,1 +1,16 @@
-dsfafas
+def member(el, inlist):
+    if(el in inlist):
+        return True
+    else:
+        return False
+
+
+
+def check_consonant(l):
+    return check_consonant1(l, ['a', 'e', 'i', 'o', 'u'])
+    
+def check_consonant1(l, vowel_list):
+    return member(l, vowel_list)
+
+
+#print(check_consonant('l'))
